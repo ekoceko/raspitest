@@ -1,0 +1,496 @@
+!SESSION 2017-06-14 01:28:26.312 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=arm, WS=gtk, NL=tr_TR
+Command-line arguments:  -os linux -ws gtk
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-06-14 01:36:25.843
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:36:25.843
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:36:25.843
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:36:25.843
+!MESSAGE Missing requirement: m2e logback configuration 1.7.0.20160603-1933 (org.eclipse.m2e.logback.configuration 1.7.0.20160603-1933) requires 'bundle org.slf4j.api 1.6.2' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:36:25.843
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:36:25.844
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:36:25.844
+!MESSAGE To: org.eclipse.m2e.logback.configuration [1.7.0.20160603-1933]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-06-14 01:36:25.861
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:36:25.862
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:36:25.862
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:36:25.862
+!MESSAGE Missing requirement: m2e logback configuration 1.7.0.20160603-1933 (org.eclipse.m2e.logback.configuration 1.7.0.20160603-1933) requires 'bundle org.slf4j.api 1.6.2' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:36:25.862
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:36:25.862
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:36:25.862
+!MESSAGE To: org.eclipse.m2e.logback.configuration [1.7.0.20160603-1933]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-06-14 01:37:05.700
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:37:05.700
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.701
+!MESSAGE Software being installed: m2e - Maven Integration for Eclipse (includes Incubating components) 1.7.0.20160603-1933 (org.eclipse.m2e.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.701
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.7.0.20160603-1933 (org.eclipse.m2e.core 1.7.0.20160603-1933) requires 'bundle org.eclipse.osgi 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:37:05.701
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.701
+!MESSAGE From: Maven Integration for Eclipse (Editors) 1.7.0.20160603-1933 (org.eclipse.m2e.editor 1.7.0.20160603-1933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.701
+!MESSAGE To: bundle org.eclipse.m2e.core [1.7.0,1.8.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:37:05.701
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.701
+!MESSAGE From: m2e - Maven Integration for Eclipse (includes Incubating components) 1.7.0.20160603-1933 (org.eclipse.m2e.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.701
+!MESSAGE To: org.eclipse.m2e.editor [1.7.0.20160603-1933]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-06-14 01:37:05.704
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:37:05.704
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.704
+!MESSAGE Software being installed: m2e - Maven Integration for Eclipse (includes Incubating components) 1.7.0.20160603-1933 (org.eclipse.m2e.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.704
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.7.0.20160603-1933 (org.eclipse.m2e.core 1.7.0.20160603-1933) requires 'bundle org.eclipse.osgi 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:37:05.705
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.705
+!MESSAGE From: Maven Integration for Eclipse (Editors) 1.7.0.20160603-1933 (org.eclipse.m2e.editor 1.7.0.20160603-1933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.705
+!MESSAGE To: bundle org.eclipse.m2e.core [1.7.0,1.8.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:37:05.705
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.705
+!MESSAGE From: m2e - Maven Integration for Eclipse (includes Incubating components) 1.7.0.20160603-1933 (org.eclipse.m2e.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:37:05.705
+!MESSAGE To: org.eclipse.m2e.editor [1.7.0.20160603-1933]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-06-14 01:42:01.725
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:42:01.726
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:42:01.726
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:42:01.726
+!MESSAGE Missing requirement: m2e logback configuration 1.7.0.20160603-1933 (org.eclipse.m2e.logback.configuration 1.7.0.20160603-1933) requires 'bundle org.slf4j.api 1.6.2' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:42:01.726
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:42:01.726
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:42:01.726
+!MESSAGE To: org.eclipse.m2e.logback.configuration [1.7.0.20160603-1933]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-06-14 01:42:01.731
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:42:01.731
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:42:01.731
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:42:01.731
+!MESSAGE Missing requirement: m2e logback configuration 1.7.0.20160603-1933 (org.eclipse.m2e.logback.configuration 1.7.0.20160603-1933) requires 'bundle org.slf4j.api 1.6.2' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:42:01.731
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:42:01.732
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:42:01.732
+!MESSAGE To: org.eclipse.m2e.logback.configuration [1.7.0.20160603-1933]
+
+!ENTRY org.eclipse.help.base 4 4 2017-06-14 01:47:38.345
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.345
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.launcher/doc-html/swt_launcher_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.345
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.team.examples.filesystem/doc-html/team_filesystem_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.346
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_imageanalyzer_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.346
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_addressbook_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.346
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.layouts/doc-html/swt_layout_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.346
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.fieldassist/doc-html/ui_fieldassist_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.346
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_manual_setup.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.346
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_javaviewer_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.347
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.ole.win32/doc-html/swt_ole_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.347
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.multipageeditor/doc-html/ui_multipageeditor_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.347
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.compare.examples.xml/doc-html/ui_xmlcompare_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.347
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.team.examples.filesystem/doc-html/team_model_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.348
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.team.examples.filesystem/doc-html/team_localhistory_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.348
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_clipboard_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.348
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.controls/doc-html/swt_customcontrols_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.348
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_hoverhelp_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.348
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.controls/doc-html/swt_controls_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.349
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_helloworld_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.349
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.paint/doc-html/swt_paint_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.349
+!MESSAGE Help document /org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/awt/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.349
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.readmetool/doc-html/ui_readmetool_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.349
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_texteditor_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.349
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.propertysheet/doc-html/ui_propertysheet_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.350
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.compare.examples/doc-html/ui_structurecreator_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.350
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_fileviewer_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.350
+!MESSAGE Help document /org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/ole/win32/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.350
+!MESSAGE Help document /org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/opengl/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.350
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.browser/doc-html/swt_browser_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.350
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.javaeditor/doc-html/ui_templateeditor_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.350
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.javaeditor/doc-html/ui_javaeditor_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-06-14 01:47:38.351
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.undo/doc-html/ui_undo_ex.html cannot be opened.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-06-14 01:49:12.483
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:49:12.483
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.483
+!MESSAGE Software being installed: m2e - Maven Integration for Eclipse 1.4.1.20140328-1905 (org.eclipse.m2e.feature.feature.group 1.4.1.20140328-1905)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.483
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.4.0.20130601-0317 (org.eclipse.m2e.core 1.4.0.20130601-0317) requires 'bundle org.slf4j.api 1.6.2' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.484
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.4.1.20140328-1905 (org.eclipse.m2e.core 1.4.1.20140328-1905) requires 'bundle org.slf4j.api 1.6.2' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:49:12.484
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.484
+!MESSAGE From: m2e Marketplace 1.4.1.20140328-1905 (org.eclipse.m2e.discovery 1.4.1.20140328-1905)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.484
+!MESSAGE To: bundle org.eclipse.m2e.core [1.4.0,1.5.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:49:12.484
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.484
+!MESSAGE From: m2e - Maven Integration for Eclipse 1.4.1.20140328-1905 (org.eclipse.m2e.feature.feature.group 1.4.1.20140328-1905)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.484
+!MESSAGE To: org.eclipse.m2e.discovery [1.4.1.20140328-1905]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-06-14 01:49:12.489
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:49:12.489
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.489
+!MESSAGE Software being installed: m2e - Maven Integration for Eclipse 1.4.1.20140328-1905 (org.eclipse.m2e.feature.feature.group 1.4.1.20140328-1905)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.490
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.4.0.20130601-0317 (org.eclipse.m2e.core 1.4.0.20130601-0317) requires 'bundle org.slf4j.api 1.6.2' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.490
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.4.1.20140328-1905 (org.eclipse.m2e.core 1.4.1.20140328-1905) requires 'bundle org.slf4j.api 1.6.2' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:49:12.490
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.490
+!MESSAGE From: m2e Marketplace 1.4.1.20140328-1905 (org.eclipse.m2e.discovery 1.4.1.20140328-1905)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.490
+!MESSAGE To: bundle org.eclipse.m2e.core [1.4.0,1.5.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:49:12.490
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.490
+!MESSAGE From: m2e - Maven Integration for Eclipse 1.4.1.20140328-1905 (org.eclipse.m2e.feature.feature.group 1.4.1.20140328-1905)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:49:12.490
+!MESSAGE To: org.eclipse.m2e.discovery [1.4.1.20140328-1905]
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-06-14 01:50:30.351
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://jamopp.org/update_trunk.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:165)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:758)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:412)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:70)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:34)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2017-06-14 01:50:30.372
+!MESSAGE No repository found at http://jamopp.org/update_trunk.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-06-14 01:50:32.274
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://emftext.org/update_trunk.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:165)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:758)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:412)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:70)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:34)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2017-06-14 01:50:32.275
+!MESSAGE No repository found at http://emftext.org/update_trunk.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-06-14 01:51:34.335
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://jamopp.org/update_trunk.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:171)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:758)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.phases.Sizing.completePhase(Sizing.java:91)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:241)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollBackPhase(EngineSession.java:239)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:178)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:84)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.getSize(ProvUI.java:230)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.SizeComputingWizardPage$1.run(SizeComputingWizardPage.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2017-06-14 01:51:34.336
+!MESSAGE No repository found at http://jamopp.org/update_trunk.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-06-14 01:51:34.876
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://emftext.org/update_trunk.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:171)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:758)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.phases.Sizing.completePhase(Sizing.java:91)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:241)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollBackPhase(EngineSession.java:239)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:178)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:84)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.getSize(ProvUI.java:230)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.SizeComputingWizardPage$1.run(SizeComputingWizardPage.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2017-06-14 01:51:34.877
+!MESSAGE No repository found at http://emftext.org/update_trunk.
+!SESSION 2017-06-14 01:52:11.136 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=arm, WS=gtk, NL=tr_TR
+Command-line arguments:  -os linux -ws gtk
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-06-14 01:52:54.449
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://jamopp.org/update_trunk.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:165)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:758)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2017-06-14 01:52:54.453
+!MESSAGE No repository found at http://jamopp.org/update_trunk.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-06-14 01:52:54.954
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://emftext.org/update_trunk.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:165)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:758)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2017-06-14 01:52:54.955
+!MESSAGE No repository found at http://emftext.org/update_trunk.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-06-14 01:53:37.916
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:53:37.916
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:53:37.916
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:53:37.917
+!MESSAGE Missing requirement: m2e logback configuration 1.7.0.20160603-1933 (org.eclipse.m2e.logback.configuration 1.7.0.20160603-1933) requires 'bundle org.slf4j.api 1.6.2' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:53:37.917
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:53:37.917
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:53:37.917
+!MESSAGE To: org.eclipse.m2e.logback.configuration [1.7.0.20160603-1933]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-06-14 01:53:37.926
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:53:37.926
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:53:37.926
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:53:37.926
+!MESSAGE Missing requirement: m2e logback configuration 1.7.0.20160603-1933 (org.eclipse.m2e.logback.configuration 1.7.0.20160603-1933) requires 'bundle org.slf4j.api 1.6.2' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-06-14 01:53:37.927
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:53:37.927
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.7.0.20160603-1933 (org.eclipse.m2e.logback.feature.feature.group 1.7.0.20160603-1933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-06-14 01:53:37.927
+!MESSAGE To: org.eclipse.m2e.logback.configuration [1.7.0.20160603-1933]
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-06-14 01:54:31.482
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://jamopp.org/update_trunk.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:171)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:758)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.phases.Sizing.completePhase(Sizing.java:91)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:241)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollBackPhase(EngineSession.java:239)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:178)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:84)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.getSize(ProvUI.java:230)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.SizeComputingWizardPage$1.run(SizeComputingWizardPage.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2017-06-14 01:54:31.483
+!MESSAGE No repository found at http://jamopp.org/update_trunk.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-06-14 01:54:31.998
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://emftext.org/update_trunk.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:171)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:758)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.phases.Sizing.completePhase(Sizing.java:91)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:241)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollBackPhase(EngineSession.java:239)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:178)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:84)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.getSize(ProvUI.java:230)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.SizeComputingWizardPage$1.run(SizeComputingWizardPage.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2017-06-14 01:54:31.999
+!MESSAGE No repository found at http://emftext.org/update_trunk.
+!SESSION 2017-06-14 01:55:48.331 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=arm, WS=gtk, NL=tr_TR
+Command-line arguments:  -os linux -ws gtk
+
+!ENTRY org.eclipse.ui 2 0 2017-06-14 01:56:05.446
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-06-14 01:56:05.446
+!MESSAGE Could not parse key sequence: plug-in='org.eclipse.m2e.core.ui', id='org.eclipse.m2e.core.ui.command.addDependency', keySequence='Ctrl+Shift+D'
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-06-14 01:56:05.446
+!MESSAGE Could not parse key sequence: plug-in='org.eclipse.m2e.core.ui', id='org.eclipse.m2e.core.ui.command.addPlugin', keySequence='Ctrl+Shift+P'
+
+!ENTRY org.eclipse.ui 2 2 2017-06-14 01:57:54.094
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-06-14 02:19:01.808
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob
